@@ -36,15 +36,15 @@ const Navbar = () =>{
                     ">
 
                             <li>
-                                <a href="#Home" >About us</a>
+                                <a href="#" >About us</a>
                             </li>
                             <li>
-                                <a href="#Services">Our Services</a>
+                                <a href="#">Our Services</a>
                             </li>
                             <li>
                                 <a href="#">Our Partners</a>
                             </li>
-                            <li>
+                            <li className='mr-5'>
                                 <a href="#">Contact Us</a>
                             </li>
                         </ul>

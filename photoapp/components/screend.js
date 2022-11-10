@@ -17,7 +17,8 @@ export default function Screend(){
         ">Contact Us</h1>
                         <div className="
         flex
-        justify-around">
+        justify-evenly  
+        pt-20">
                             <button className="
                         text-slate-50
                         border-slate-50
