@@ -16,9 +16,6 @@ export default function Document() {
                 <Screenb />
                 <Screenc />
                 <Screend />
-
-
-
                 <NextScript />
             </body>
         </Html>
