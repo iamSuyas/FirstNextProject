@@ -9,19 +9,18 @@ const Navbar = () =>{
             flex
             justify-between
             items-center
-            cursor-pointer
             fixed
             z-50
-            w-screen
+            w-full
             ">
                  <span>
                             <div className="
                         text-xl
                         flex
-                        p-1
+                        cursor-pointer
                         items-center
                         ">
-                                <Image className="h-10 w-10 rounded-xl" src={logo} />
+                                <Image className="h-10 w-10 rounded-xl m-2" src={logo} />
                                 Next Restaurant
                             </div>
                         </span>
@@ -29,8 +28,8 @@ const Navbar = () =>{
                         <ul className="
                     flex
                     justify-evenly
-                    gap-2
-                    p-3
+                    gap-5   
+                    
                     cursor-pointer
                     
                     ">

@@ -4,16 +4,17 @@ export default function Screena() {
     return (
         <>
             <section className="
-                w-screen
+                w-full
                 h-screen
                 bg-neutral-800
                 ">
+
                 <div>
                     <h2 className="
                 font-bold 
                 text-center 
                 text-4xl 
-                pt-16
+                pt-60
                 text-slate-50">Hi! Welcome to the Next Restaurant's Official Site</h2>
                     <p className="
                 text-center
@@ -21,7 +22,7 @@ export default function Screena() {
                 text-slate-50">Lorem ipsum dolor sit amet consectetur, Hallow adipisicing elit. Perferendis dolorum numquam minus  </p>
                     <p className="
                 text-center
-                pb-40
+                pb-16
                 text-slate-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                     <div className="
                             flex 

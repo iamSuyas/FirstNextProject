@@ -3,9 +3,8 @@ import Link from 'next/link'
 export default function Screenc(){
     return(
         <section id="partners" className="
-        w-screen 
+        w-full 
         h-96
-       
         ">
             <h1 className="
             font-bold 

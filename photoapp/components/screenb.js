@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Screenb() {
     return(
     <section id="Sevices" className="
-                w-screen
+                w-full
                 h-screen">
         <h1 className="
         text-black-700 
