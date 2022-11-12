@@ -12,7 +12,8 @@ export default function Button() {
                         md:h-9
                         md:text-base
                         rounded-3xl
-                            ">Order Now
+                        ">
+            Order Now
         </button>
     )
 }

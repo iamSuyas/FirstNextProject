@@ -19,11 +19,10 @@ const Navbar = () => {
                         flex
                         justify-center
                         items-center
-                        text-lg
-                        md:text-xl
                         ">
-                    <div className=''>
-                        <Image className="
+                    <div className='text-lg
+                        md:text-xl'>
+                        <Link href="/screens/screena"><Image className="
                     h-8 
                     w-8 
                     rounded-xl 
@@ -31,7 +30,7 @@ const Navbar = () => {
                     md:h-11
                     md:w-11"
                             src={logo} />
-                        Next Restaurant
+                        Next Restaurant</Link>
                     </div>
                 </div>
                 <ul className="
@@ -39,33 +38,42 @@ const Navbar = () => {
                 justify-evenly
                 md:gap-3
                 ">
-                    <li>
-                        <a href="#" className='
+                    <li><Link href="/screens/screena">
+                        <div className='
+                        text-sm
+                        sm:text-base
                 hover:text-lg 
                  hover:transition 
                  duration-500 
-                 ease-ou ' >About us</a>
-                    </li>
+                 ease-out
+                ' >About us</div>
+                    </Link></li>
                     <li>
-                        <a href="#" className='
+                    <Link href="/screens/screenb"><div className='
+                    text-sm
+                    sm:text-base
                         hover:text-lg 
                  hover:transition 
                  duration-500 
-                 ease-out'>Our Services</a>
+                 ease-out'>Our Services</div></Link>
                     </li>
                     <li>
-                        <a href="#" className='
+                    <Link href="/screens/screenc"> <div className='
+                    text-sm
+                    sm:text-base
                         hover:text-lg 
                         hover:transition 
                         duration-500 
-                        ease-out'>Our Partners</a>
+                        ease-out'>Our Partners</div></Link>
                     </li>
                     <li>
-                        <a href="#" className="
+                    <Link href="/screens/order"><div className="
+                    text-sm
+                    sm:text-base
                         hover:text-lg 
                         hover:transition 
                         duration-500 
-                        ease-out">Contact Us</a>
+                        ease-out">Order Now</div></Link>
                     </li>
                 </ul>
             </nav>
